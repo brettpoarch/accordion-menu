@@ -1,0 +1,44 @@
+html {box-sizing:border-box;}
+
+*, *:before, *after {box-sizing:inherit}	
+
+.app{
+	height: auto;
+	width: 350px;
+	border: 1px solid rgb(0, 198, 214);
+}
+
+.one:hover, .two:hover, .three:hover{
+	height: auto;
+}
+
+.hOne:hover + .pOne{
+	display: block;
+}
+
+.hTwo:hover + .pTwo{
+	display: block;
+}
+
+.hThree:hover + .pThree{
+	display: block;
+}
+
+header{
+	background-color: rgb(0, 198, 214);
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+p{
+	display:none;
+	padding-left: 10px;
+}
+
+div{
+	height:40px;
+	width:350px;
+}
