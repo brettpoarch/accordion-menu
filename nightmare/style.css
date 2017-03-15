@@ -8,20 +8,20 @@ html {box-sizing:border-box;}
 	border: 1px solid rgb(0, 198, 214);
 }
 
-.one:focus, .two:focus, .three:focus{
-	height: 200px;
+.one:hover, .two:hover, .three:hover{
+	height:auto;
 	display: block;
 }
 
-.hOne:focus + .pOne{
+.hOne:hover + .pOne{
 	display: block;
 }
 
-.hTwo:focus + .pTwo{
+.hTwo:hover + .pTwo{
 	display: block;
 }
 
-.hThree:focus + .pThree{
+.hThree:hover + .pThree{
 	display: block;
 }
 
