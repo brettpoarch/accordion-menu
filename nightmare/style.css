@@ -10,7 +10,6 @@ html {box-sizing:border-box;}
 
 .one:hover, .two:hover, .three:hover{
 	height:auto;
-	display: block;
 }
 
 .hOne:hover + .pOne{
